@@ -1,6 +1,8 @@
 "use client";
 import { useMemo, useState } from "react";
 
+<svg className="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><path d="M12 20s-6.5-3.8-8.2-7.4C2.4 9.6 4.1 6 7.5 6c2 0 3.3 1.1 4.5 2.7C13.2 7.1 14.5 6 16.5 6c3.4 0 5.1 3.6 3.7 6.6C18.5 16.2 12 20 12 20Z"/><path d="M12 10v4M10 12h4"/></svg>
+
 export default function Home() {
   const [weight, setWeight] = useState("65");
   const [height, setHeight] = useState("170");
@@ -31,6 +33,7 @@ export default function Home() {
       <div className="wrap">
         <nav className="topbar">
           <div className="brand">
+            <svg className="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><path d="M12 20s-6.5-3.8-8.2-7.4C2.4 9.6 4.1 6 7.5 6c2 0 3.3 1.1 4.5 2.7C13.2 7.1 14.5 6 16.5 6c3.4 0 5.1 3.6 3.7 6.6C18.5 16.2 12 20 12 20Z"/><path d="M12 10v4M10 12h4"/></svg>
             <span>BODYWISE</span>
           </div>
           <span className="toplink">สุขภาพดี เริ่มจากความเข้าใจตัวเอง</span>
